@@ -1,0 +1,33 @@
+{
+  "name": "p-queue-decorator",
+  "version": "0.0.0",
+  "description": "PQueue decorator",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:darky/p-queue-decorator.git"
+  },
+  "files": [
+    "dist/index.js",
+    "dist/index.d.ts"
+  ],
+  "scripts": {
+    "build": "rm -rf dist && tsc",
+    "test": "tsx test.ts"
+  },
+  "keywords": [
+    "p-queue",
+    "decorator"
+  ],
+  "author": "Vladislav Botvin",
+  "license": "MIT",
+  "dependencies": {
+    "p-queue": "^6.6.2"
+  },
+  "devDependencies": {
+    "@types/node": "^18.15.11",
+    "tsx": "^3.12.6",
+    "typescript": "~5.0.3"
+  }
+}
