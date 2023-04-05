@@ -19,3 +19,5 @@ class Test {
   }
 }
 ```
+
+_Note: methods will be forced to Promise returning_
